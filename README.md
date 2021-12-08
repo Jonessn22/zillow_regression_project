@@ -1,6 +1,6 @@
 # Beating the Zillow Zestimate® for Home Values
-Stephanie Jones<br>
-Junior Data Scientist | Zillow Data Science Team<br>
+Stephanie N. Jones<br>
+Data Scientist<br>
 Monday, December 13, 2021<br>
 Codeup | Hopper Cohort<br> 
 
