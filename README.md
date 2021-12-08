@@ -1,11 +1,11 @@
-#[Predicting Single Family Property Values]
->Stephanie Jones
-Junior Data Scientist | Zillow Data Science Team
-Monday, December 13, 2021
-Codeup | Hopper Cohort 
+# Beating the Zillow Zestimate® for Home Values
+Stephanie Jones<br>
+Junior Data Scientist | Zillow Data Science Team<br>
+Monday, December 13, 2021<br>
+Codeup | Hopper Cohort<br> 
 
 ## Project Summary
->Hello, I am Stephanie, a Junior Data Scientist on the Zillow Data Science team. We are looking to improve our Zestimate® home valuation model that estimates a home’s market value. When combined with the guidance of real estate professionals, the Zestimate® home valuation predictions can help the millions of home buyers and sellers that visit Zillow each month make more informed financial decisions about their homes. The Zestimate® is often one of a home’s first impressions for prospective buyers, and accurate information helps attract interest. 
+>For this project I am doing the work of a Junior Data Scientist on the Zillow Data Science team, working to improve the Zestimate® home valuation model that estimates a home’s market value. When combined with the guidance of real estate professionals, the Zestimate® home valuation predictions can help the millions of home buyers and sellers that visit Zillow each month make more informed financial decisions about their homes. The Zestimate® is often one of a home’s first impressions for prospective buyers, and accurate information helps attract interest. 
 
 >For most consumers, a home is the largest purchase they will make over the course of their lifetime. Ensuring consumers have a trusted way to monitor a home’s value is vital. The Zestimate® estimates home values based on 7.5 million statistical and Machine Learning models that analyze hundreds of data points on each property and marks the first time consumers have had access to this valuation information at no cost. Zillow has since become established as one of the most trusted real estate information marketplaces in the U.S. and a leading example of the power and value of machine learning.
 
@@ -27,20 +27,19 @@ Steps to Reproduce<br>
 
 ## Business Goals
 #### Primary Goal 1 | Predict Home Values
-Construct Machine Learning model by finding key drivers that predicts property tax assessed values ‘taxvaluedollarcnt’ of Single Family Properties with transactions during 2017 
+>Construct Machine Learning model by finding key drivers that predicts property tax assessed values ‘taxvaluedollarcnt’ of Single Family Properties with transactions during 2017 
 #### Primary Goal 2 | Beat Zestimate®
-Improve existing Zillow model for predicting home values 
+>Improve existing Zillow model for predicting home values 
 #### Secondary Goal | Property Locations
-City and state of each property
+>City and state of each property
 
 ## Executive Summary
-Initial Questions of the Data
+#### Initial Questions and Hypothesis
 > Question 1<br>
 Question 2<br>
 Question 3<br>
 Question 4
 
-Initial Hypothesis
 >Initial Hypothesis
 
 #### Conclusions
