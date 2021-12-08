@@ -5,11 +5,11 @@ Monday, December 13, 2021<br>
 Codeup | Hopper Cohort<br> 
 
 ## Project Summary
->For this project I am doing the work of a Junior Data Scientist on the Zillow Data Science team, working to improve the Zestimate® home valuation model that estimates a home’s market value. When combined with the guidance of real estate professionals, the Zestimate® home valuation predictions can help the millions of home buyers and sellers that visit Zillow each month make more informed financial decisions about their homes. The Zestimate® is often one of a home’s first impressions for prospective buyers, and accurate information helps attract interest. 
+>For this project I am doing the work of a Junior Data Scientist on the Zillow Data Science team, working to improve the Zestimate® home valuation model that estimates a home’s market value. When combined with the guidance of real estate professionals, the Zestimate® home valuation predictions can help the millions of home buyers and sellers that visit Zillow each month make more informed financial decisions about their homes. The Zestimate® is often one of a home’s first impressions for prospective buyers, and accurate information helps attract interest.[^1]
 
->For most consumers, a home is the largest purchase they will make over the course of their lifetime. Ensuring consumers have a trusted way to monitor a home’s value is vital. The Zestimate® estimates home values based on 7.5 million statistical and Machine Learning models that analyze hundreds of data points on each property and marks the first time consumers have had access to this valuation information at no cost. Zillow has since become established as one of the most trusted real estate information marketplaces in the U.S. and a leading example of the power and value of machine learning.
+>For most consumers, a home is the largest purchase they will make over the course of their lifetime. Ensuring consumers have a trusted way to monitor a home’s value is vital. The Zestimate® estimates home values based on 7.5 million statistical and Machine Learning models that analyze hundreds of data points on each property and marks the first time consumers have had access to this valuation information at no cost. Zillow has since become established as one of the most trusted real estate information marketplaces in the U.S. and a leading example of the power and value of machine learning.[^2]
 
->For this project I will be performing the role of a Junior Data Scientist on the Zillow Data Science Team, working to improve Zillow's current Zestimate® by finding drivers of homes' tax assessed value and creating a Machine Models that predict the values of single family homes with transactions in 2017. 
+>For this project I will be performing the role of a Junior Data Scientist on the Zillow Data Science Team, working to improve Zillow's current Zestimate® by finding drivers of homes' tax assessed value and creating a Machine Models that predict the values of single family homes with transactions in 2017.[^3]
 
 Audience
 >Zillow Data Science Team
@@ -68,3 +68,8 @@ Question 4
 ### 05 Evaluate ML Models
 
 ### 06 Test and Conclusions
+
+## References
+[^1]: Zillow website | About Zestimate®. https://www.zillow.com/z/zestimate/ 
+[^2]: Kaggle website | Zillow Competition. https://www.kaggle.com/c/zillow-prize-1 
+[^3]: Codeup project specs | Codeup Data Science Course Catalogue. https://codeup.com/ds-course-catalog/
