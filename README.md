@@ -69,7 +69,7 @@ Question 4
 
 ### 06 Test and Conclusions
 
-## References
+##### References
 [^1]: Zillow website | About Zestimate®. https://www.zillow.com/z/zestimate/ 
 [^2]: Kaggle website | Zillow Competition. https://www.kaggle.com/c/zillow-prize-1 
 [^3]: Codeup project specs | Codeup Data Science Course Catalogue. https://codeup.com/ds-course-catalog/
