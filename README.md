@@ -5,8 +5,6 @@ Monday, December 13, 2021<br>
 Codeup | Hopper Cohort<br> 
 
 ## Project Summary
->For this project I am doing the work of a Junior Data Scientist on the Zillow Data Science team, working to improve the Zestimate® home valuation model that estimates a home’s market value. When combined with the guidance of real estate professionals, the Zestimate® home valuation predictions can help the millions of home buyers and sellers that visit Zillow each month make more informed financial decisions about their homes. The Zestimate® is often one of a home’s first impressions for prospective buyers, and accurate information helps attract interest.[^1]
-
 >For most consumers, a home is the largest purchase they will make over the course of their lifetime. Ensuring consumers have a trusted way to monitor a home’s value is vital. The Zestimate® estimates home values based on 7.5 million statistical and Machine Learning models that analyze hundreds of data points on each property and marks the first time consumers have had access to this valuation information at no cost. Zillow has since become established as one of the most trusted real estate information marketplaces in the U.S. and a leading example of the power and value of machine learning.[^2]
 
 >For this project I will be performing the role of a Junior Data Scientist on the Zillow Data Science Team, working to improve Zillow's current Zestimate® by finding drivers of homes' tax assessed value and creating a Machine Models that predict the values of single family homes with transactions in 2017.[^3]
@@ -60,6 +58,17 @@ Question 4
 ### 01 Acquire Data
 
 ### 02 Prepare Data (for Exploratory Analysis)
+1. Import libraries, modules, and functions
+2. Clean data
+    - Column names
+    - Drop nulls
+    - Drop 0 counts
+    - Remove outliers
+3. Create global variables for column groups
+4. Visualize boxplots of data
+    - Top row: before outliers removed
+    - Bottton row: after outliers removed
+5. Split and prepare data for modeling
 
 ### 03 Explore Data
 
