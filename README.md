@@ -56,6 +56,18 @@ Question 4
 >[Project Outline](https://docs.google.com/document/d/1NHzrmd0hoA4AoQd8Ct4I3GhuBJHtTpCqZyr8Aw_e6wI/edit?usp=sharing)
 
 ### 01 Acquire Data
+1. env file with database credentials tracked by ignore file
+2. local .csv file or SQL query
+>SELECT bathroomcnt,<br>
+        bedroomcnt,<br>
+        calculatedfinishedsquarefeet,<br>
+        fips,<br>
+        yearbuilt,<br>
+        taxvaluedollarcnt<br>
+FROM properties_2017<br>
+JOIN predictions_2017 USING(parcelid)<br>
+WHERE propertylandusetypeid = 261;<br>
+3. a string that includes the final row count of the acquired data, will be printed to verify data count for project specs
 
 ### 02 Prepare Data (for Exploratory Analysis)
 1. Import libraries, modules, and functions
