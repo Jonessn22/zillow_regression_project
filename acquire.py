@@ -11,7 +11,7 @@
         - query
         - file_name
         
-    III. acquire_data() function
+    III. acquire_data() FUNCTION
     
     IV. VERIFY COUNT
 '''
@@ -39,7 +39,6 @@ SELECT bathroomcnt,
         bedroomcnt,
         calculatedfinishedsquarefeet,
         fips,
-        regionidzip,
         yearbuilt,
         taxvaluedollarcnt
 FROM properties_2017
