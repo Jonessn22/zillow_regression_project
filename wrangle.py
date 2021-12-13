@@ -4,12 +4,19 @@ from env import host, user, password
 
 import pandas as pd
 import numpy as np
+from math import sqrt
 
 import seaborn as sns
 import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
+from scipy import stats
+
+from sklearn.metrics import mean_squared_error
+from sklearn.linear_model import LinearRegression, LassoLars, TweedieRegressor
+from sklearn.preprocessing import PolynomialFeatures
+
 
 ## IMPORTS              #######################################################################
 import pandas as pd
@@ -87,9 +94,6 @@ def clean_data():
     # drop rows with zero count for 'beds' or 'baths'
     df = df.drop(df[(df.beds == 0) | (df.baths == 0)].index)
     
-    #change dtype of fips from float to object
-    df.fips = df['fips'].astype(int).astype(object)
-    
     # var with list of columns that the outliers will be removed from
     out_cols = ['beds', 'baths', 'sqft', 'tax_value']
         
@@ -124,11 +128,13 @@ WITH THE TEXT OF THE CORRESPONDING COUNTY TO THE FIPS CODE.
     if row['fips'] == 6111:
         return 'Ventura'
     
-def encode_fips(df):
+def encode_fips():
     '''
 THIS FUNCTION TAKES IN THE DF AND ENCODES THE FIPS COLUMN FOR 
 EACH OF THE THREE COUNTIES AND THEN DROPS THE OBJECT COUNTY COLUMN
     '''
+    df = clean_data()
+    
     df['county'] = df.apply(lambda row: assign_county(row), axis = 1)
     
     dummy_df = pd.get_dummies(df[['county']], drop_first = False)
@@ -208,7 +214,7 @@ def visualize_data():
         # Hide gridlines.
         plt.grid(False)
         
-        
+df = encode_fips()     
     
 ## PREPARE FUNCTION   #######################################################################    
 def prepare_data():
@@ -217,7 +223,6 @@ def prepare_data():
     '''
     # split
     # var holding df to split
-    df = encode_data()
     
     # create test df
     train_validate, test = train_test_split(df, test_size = .2, random_state = 123)
@@ -245,6 +250,6 @@ def feature_select(train, validate, test):
     y_test = test[['tax_value']]
     
     return X_train, y_train, X_validate, y_validate, X_test, y_test
-    
-    
+      
+
     
