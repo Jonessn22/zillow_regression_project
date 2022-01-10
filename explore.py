@@ -46,26 +46,3 @@ CORR TESTS
     return corr_sqft, corr_beds, corr_baths
     
 
-#def model():
-#    
-#    X_train, y_train, X_validate, y_validate, X_test, y_test = wrangle.feature_select(train, validate, test)
-#
-#    # baseline
-#    baseline = y_train.tax_value.median()
-#    y_train['baseline_pred'] = baseline_pred
-#    y_validate['baseline_pred'] = baseline_pred
-#    baseline_rsme_train = sqrt(mean_squared_error(y_train.tax_value, y_train.baseline_pred))
-#    
-#    # model 1
-#    lm = LinearRegression(normalize=True)
-#    lm.fit(X_train, y_train['tax_value'])
-#    y_train['model1_pred'] = lm.predict(X_train)
-#    model1_rsme_train = sqrt(mean_squared_error(y_validate.tax_value, y_validate.model1_pred))
-    
-    
-    
-    
-    
-    
-    
-
